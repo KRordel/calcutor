@@ -22,7 +22,7 @@
                         <a class="inline-block rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" href="#">
                             Пользовательское соглашение
                         </a>
-                        <a class="inline-block rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" href="#faqs">
+                        <a class="inline-block rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" href="#">
                             Часто задаваемые вопросы (FAQ)
                         </a>
                     </div>

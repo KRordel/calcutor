@@ -1,5 +1,6 @@
 <script setup>
 	import Logo from "./Logo.vue";
+	import Search from "./Search.vue";
 </script>
 
 <template>
@@ -11,7 +12,8 @@
                 </div>
                 <div class="flex items-center gap-4">
                     
-                    <a class="flex items-center justify-center gap-2 rounded-lg border py-2 px-3 hover:border-gray-400" href="/login">
+                    <Search />
+                    <a class="hidden sm:flex items-center justify-center gap-2 rounded-lg border py-2 px-3 hover:border-gray-400" href="/login">
                         <svg class="h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 6a3.75 3.75 0 1 0 0 7.5A3.75 3.75 0 0 0 12 6Zm0 6a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5Z"></path>
                             <path d="M12 1.5A10.5 10.5 0 1 0 22.5 12 10.512 10.512 0 0 0 12 1.5ZM7.5 19.782V18.75a2.253 2.253 0 0 1 2.25-2.25h4.5a2.253 2.253 0 0 1 2.25 2.25v1.032a8.924 8.924 0 0 1-9 0Zm10.494-1.088A3.751 3.751 0 0 0 14.25 15h-4.5a3.751 3.751 0 0 0-3.744 3.694 9 9 0 1 1 11.988 0Z"></path>
@@ -37,7 +39,7 @@
 
     <div id="hs-overlay-right" class="hs-overlay hs-overlay-open:translate-x-0 hidden translate-x-full fixed top-0 end-0 transition-all duration-300 transform h-full max-w-xs w-full z-[80] bg-white border-s dark:bg-neutral-800 dark:border-neutral-700" tabindex="-1">
         <div class="flex justify-between items-center py-3 px-4 border-b dark:border-neutral-700">
-            <h3 class="font-bold text-gray-800 dark:text-white">
+            <h3 class="text-2xl font-medium tracking-tight text-gray-900">
                 Меню
             </h3>
             <button type="button" class="flex justify-center items-center size-7 font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-700" data-hs-overlay="#hs-overlay-right">
@@ -51,6 +53,15 @@
         <div class="p-4">
             <nav class="hs-accordion-group w-full flex flex-col flex-wrap" data-hs-accordion-always-open>
                 <ul class="space-y-1.5">
+                    <li>
+                        <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                            <svg class="h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 6a3.75 3.75 0 1 0 0 7.5A3.75 3.75 0 0 0 12 6Zm0 6a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5Z"></path>
+                                <path d="M12 1.5A10.5 10.5 0 1 0 22.5 12 10.512 10.512 0 0 0 12 1.5ZM7.5 19.782V18.75a2.253 2.253 0 0 1 2.25-2.25h4.5a2.253 2.253 0 0 1 2.25 2.25v1.032a8.924 8.924 0 0 1-9 0Zm10.494-1.088A3.751 3.751 0 0 0 14.25 15h-4.5a3.751 3.751 0 0 0-3.744 3.694 9 9 0 1 1 11.988 0Z"></path>
+                            </svg>
+                            Войти
+                        </a>
+                    </li>
                     <li>
                         <a class="flex items-center gap-x-3.5 py-2 px-2.5 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-700 dark:text-white" href="#">
                             <svg class="h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

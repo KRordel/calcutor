@@ -6,6 +6,8 @@
 	import Prising from "./components/Prising.vue";
 	import Faq from "./components/Faq.vue";
 	import Footer from "./components/Footer.vue";
+
+	import Calc from "./components/Calc.vue";
 </script>
 
 <template>
@@ -14,12 +16,19 @@
 		<main class="flex-1">
 
 
-			<Hero />
-			<!-- <CatalogDark /> -->
-			<Catalog />
-			<!-- <Prising /> -->
-			<!-- <Faq /> -->
+			<!-- <div id="main">
+				<Hero />
+				<Catalog />
+			</div> -->
+			<div id="calc">
+				<Calc />
+			</div>
+			<!-- <div id="faq">
+				<Faq />
+			</div> -->
 
+
+			
 
 		</main>
 

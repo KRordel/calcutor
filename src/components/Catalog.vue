@@ -1,9 +1,9 @@
 <template>
-    <section id="catalog" aria-labelledby="catalog-title" class="py-20">
+    <section id="catalog" class="py-20">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             
             <div class="mt-16">
-                <div id="base-components" class="scroll-mt-12 text-start col-span-2 md:col-span-3 lg:col-span-4 mb-4 xl:mb-6 px-4 sm:px-6 lg:px-8">
+                <div id="base-components" class="scroll-mt-12 text-start col-span-2 md:col-span-3 lg:col-span-4 mb-4 xl:mb-6">
                     <h3 class="text-gray-800 text-lg font-semibold flex items-center gap-2">
                         <svg class="h-6 text-primary-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M23.25 19.5a.75.75 0 0 1-.75.75h-21a.75.75 0 1 1 0-1.5h21a.75.75 0 0 1 .75.75ZM1.528 9.208a.75.75 0 0 1 .328-.844l9.75-6a.74.74 0 0 1 .788 0l9.75 6a.75.75 0 0 1-.394 1.388H19.5v6H21a.75.75 0 0 1 0 1.5H3a.75.75 0 1 1 0-1.5h1.5v-6H2.25a.75.75 0 0 1-.722-.544ZM13.5 15.001a.75.75 0 1 0 1.5 0v-4.5a.75.75 0 1 0-1.5 0V15ZM9 15a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 1 0-1.5 0V15Z"></path>
@@ -11,7 +11,7 @@
                         Финансовые калькуляторы
                     </h3>
                 </div>
-                <div class="text-start grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6 px-4 sm:px-6 lg:px-8">
+                <div class="text-start grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6">
                     <a href="#" class="flex items-center justify-center p-4 text-center relative rounded-xl before:absolute before:inset-0 before:z-10 before:border before:border-gray-200 before:rounded-xl before:transition before:hover:border-2 before:hover:border-primary-500 before:hover:shadow-lg">
                         <h3 class="text-base text-gray-900 font-medium">Кредитный калькулятор</h3>
                     </a>
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="mt-16">
-                <div id="base-components" class="scroll-mt-12 text-start col-span-2 md:col-span-3 lg:col-span-4 mb-4 xl:mb-6 px-4 sm:px-6 lg:px-8">
+                <div id="base-components" class="scroll-mt-12 text-start col-span-2 md:col-span-3 lg:col-span-4 mb-4 xl:mb-6">
                     <h3 class="text-gray-800 text-lg font-semibold flex items-center gap-2">
                         <svg class="h-6 text-primary-500" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 14.25c5.385 0 9.75-2.015 9.75-4.5s-4.365-4.5-9.75-4.5-9.75 2.015-9.75 4.5 4.365 4.5 9.75 4.5Z"></path>
@@ -45,7 +45,7 @@
                         Калькуляторы для инвестиций
                     </h3>
                 </div>
-                <div class="text-start grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6 px-4 sm:px-6 lg:px-8">
+                <div class="text-start grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6">
                     <a href="#" class="flex items-center justify-center p-4 text-center relative rounded-xl before:absolute before:inset-0 before:z-10 before:border before:border-gray-200 before:rounded-xl before:transition before:hover:border-2 before:hover:border-primary-500 before:hover:shadow-lg">
                         <h3 class="text-base text-gray-900 font-medium">Калькулятор вкладов</h3>
                     </a>
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="mt-16">
-                <div id="base-components" class="scroll-mt-12 text-start col-span-2 md:col-span-3 lg:col-span-4 mb-4 xl:mb-6 px-4 sm:px-6 lg:px-8">
+                <div id="base-components" class="scroll-mt-12 text-start col-span-2 md:col-span-3 lg:col-span-4 mb-4 xl:mb-6">
                     <h3 class="text-gray-800 text-lg font-semibold flex items-center gap-2">
                         <svg class="h-6 text-primary-500" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3.95 2.5c1.419 1.51 2.128 3.47 2.128 5.882C6.078 12 3 14.77 2.484 16.75 2.142 18.07 1.98 19.654 2 21.5"></path>
@@ -69,7 +69,7 @@
                         Калькуляторы для здоровья
                     </h3>
                 </div>
-                <div class="text-start grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6 px-4 sm:px-6 lg:px-8">
+                <div class="text-start grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6">
                     <a href="#" class="flex items-center justify-center p-4 text-center relative rounded-xl before:absolute before:inset-0 before:z-10 before:border before:border-gray-200 before:rounded-xl before:transition before:hover:border-2 before:hover:border-primary-500 before:hover:shadow-lg">
                         <h3 class="text-base text-gray-900 font-medium">Калькулятор ИМТ</h3>
                     </a>
