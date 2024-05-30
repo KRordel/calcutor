@@ -4,7 +4,7 @@
             <p class="mb-4 text-gray-800">
                 Калькулятор веса поможет вам определить идеальный вес исходя из вашего реального роста. Благодаря полученным данным вы сможете узнать стоит ли вам сбросить лишние килограммы или же наоборот набрать полезную массу тела. 
             </p>
-            <h2 class="text-3xl font-medium text-gray-800 mb-4 mt-6">
+            <h2 class="text-2xl font-medium text-gray-800 mb-4 mt-6">
                 Масса тела по Броку
             </h2>
             <p class="mb-4 text-gray-800">
@@ -13,7 +13,7 @@
             <p class="mb-4 text-gray-800">
                 Конечно же, полученные данные являются среднестатистическими, поскольку каждый организм человека уникальный, у каждого он функционирует совершенно по разному. Кроме того система не принимает во внимание питание и образ жизни человека. Однако, калькулятор веса позволит вам узнать приблизительный показатель идеального веса с той целью, чтобы вы в своей жизни смогли, по возможности, держаться как можно ближе своего полезного веса. Таким образом воспользовавшись сервисом: калькулятор веса онлайн - вы сможете серьезно задуматься над необходимостью коррекции своей фигуры. Несомненно придерживаясь золотой середины показателя массы вашего тела, Вы будете вести более счастливую и насыщенную жизнь.
             </p>
-            <h2 class="text-3xl font-medium text-gray-800 mb-4 mt-6">
+            <h2 class="text-2xl font-medium text-gray-800 mb-4 mt-6">
                 Типы телосложения
             </h2>
             <p class="mb-4 text-gray-800">
@@ -29,39 +29,6 @@
                 <strong>Эндоморфы</strong> - люди, склонные  к полноте. Если энфоморф не будет следить за собой, это очень быстро скажется на его внешнем виде. Из-за медленного метаболизма накопление жировой ткани происходит быстро. У мезоморфов сильные мышцы, в особенности бедра. Часто они небольшого роста. Мышцы прорисованы слабо. Таким людям сложнее сбросить вес, чем мезоморфам. При тренировках рекомендуется уделять время кардионагрузкам.
             </p>
 
-
-            
-            <h1 class="text-4xl font-medium text-gray-800">
-                Пример заголовка первого уровня
-            </h1>
-            <h2 class="text-3xl font-medium text-gray-800">
-                Пример заголовка второго уровня
-            </h2>
-            <h3 class="text-2xl font-medium text-gray-800">
-                Пример заголовка третьего уровня
-            </h3>
-            <h4 class="text-xl font-medium text-gray-800">
-                Пример заголовка четвертого уровня
-            </h4>
-            <h5 class="text-lg font-medium text-gray-800">
-                Пример заголовка пятого уровня
-            </h5>
-            <h6 class="text-base font-medium text-gray-800">
-                Пример заголовка шестого уровня
-            </h6>
-            <p class="text-gray-800">You can use the mark tag to <mark>highlight</mark> text.</p>
-            <p class="text-gray-800"><del>This line of text is meant to be treated as deleted text.</del></p>
-            <p class="text-gray-800"><s>This line of text is meant to be treated as no longer accurate.</s></p>
-            <p class="text-gray-800"><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
-            <p class="text-gray-800"><u>This line of text will render as underlined.</u></p>
-            <p class="text-gray-800"><small>This line of text is meant to be treated as fine print.</small></p>
-            <p class="text-gray-800"><strong>This line rendered as bold text.</strong></p>
-            <p class="text-gray-800"><em>This line rendered as italicized text.</em></p>
-            <ul class="list-disc list-inside text-gray-800">
-                <li>Now this is a story all about how, my life got flipped turned upside down</li>
-                <li>And I like to take a minute and sit right here</li>
-                <li>I'll tell you how I became the prince of a town called Bel-Air </li>
-            </ul>
         </article>
     </section>
 </template>
