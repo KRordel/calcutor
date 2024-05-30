@@ -10,6 +10,7 @@
 
 
 	import HeaderV2 from "./components/v2/Header.vue";
+	import FooterV2 from "./components/v2/Footer.vue";
 </script>
 
 <template>
@@ -39,7 +40,7 @@
 
 		</main>
 
-    	<FooterCo />
+    	<FooterV2 />
 
   	</div>
 </template>
