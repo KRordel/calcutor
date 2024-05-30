@@ -1,7 +1,7 @@
 <script setup>
 	// import HeaderCo from "./components/Header.vue";
-	// import Hero from "./components/Hero.vue";
-	// import Catalog from "./components/Catalog.vue";
+	import Hero from "./components/Hero.vue";
+	import Catalog from "./components/Catalog.vue";
 	// import CatalogDark from "./components/CatalogDark.vue";
 	// import Prising from "./components/Prising.vue";
 	// import Faq from "./components/Faq.vue";
